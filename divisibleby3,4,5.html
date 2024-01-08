@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Number divisible by 3,4,5</title>
+</head>
+<body>
+<script>
+function div(){
+let arr=[3,10,24,15,45,20,12,40,9,16,100,85];
+		let divisibleby3=0;
+		let divisibleby4=0;
+		let divisibleby5=0;
+		for(let i=0;i<arr.length;i++)
+		{
+			if(arr[i]%3==0)
+		{
+			divisibleby3++;
+		}
+		   if(arr[i]%4==0){
+		   divisibleby4++;
+		   }
+		   if(arr[i]%5==0){
+		   divisibleby5++;
+		   }
+		}
+		console.log("divisible by 3 count is",divisibleby3);
+		console.log("divisible by 4 count is",divisibleby4);
+		console.log("divisible by count is",divisibleby5);
+		}
+		div();
+</script>
+</body>
+</html>
